@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 FMODRuntime="*res://addons/FMOD/runtime/fmod_runtime_manager.gd"
 Global="*res://Scripts/global.gd"
+Music="*res://Scripts/music.gd"
 
 [dotnet]
 
