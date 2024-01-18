@@ -1,2 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Ignore anything in the Builds folder (except the gdignore file)
+Builds/*
+!Builds/.gdignore
+
+# Ignore that one FMOD file that gets created when the project is opened, and deleted when it is closed
+addons/FMOD/native/lib/win64/release/~*
