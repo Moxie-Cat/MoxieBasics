@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="MoxieBasics"
+config/tags=PackedStringArray("template")
 run/main_scene="res://game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
@@ -20,6 +21,11 @@ config/icon="res://icon.svg"
 FMODRuntime="*res://addons/FMOD/runtime/fmod_runtime_manager.gd"
 Global="*res://Scripts/global.gd"
 Music="*res://Scripts/music.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [dotnet]
 
